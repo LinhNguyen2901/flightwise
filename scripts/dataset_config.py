@@ -1,4 +1,3 @@
-"""Shared defaults from the verified active-period configuration."""
 import calendar
 import json
 from pathlib import Path

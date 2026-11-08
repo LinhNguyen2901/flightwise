@@ -1,7 +1,6 @@
 import {sumCounts} from './charts/metrics.js';
 import type {Airport, AirportHourRow, ContextRow} from './types';
 
-// The notebook map uses uppercase coordinate names; the API uses lowercase.
 export function mapAirports(airports: Airport[]) {
   return airports.map(airport => ({
     ...airport,

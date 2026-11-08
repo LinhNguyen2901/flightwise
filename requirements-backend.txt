@@ -1,4 +1,0 @@
--r requirements-data.txt
-fastapi==0.115.12
-uvicorn==0.34.2
-httpx==0.28.1

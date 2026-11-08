@@ -5,7 +5,6 @@ import {lateRate, sumCounts} from './metrics.js';
 const volumeColor = '#b5d8d5';
 const rateColor = '#007f87';
 
-// Both panels use the same share and late-rate axes for direct comparison.
 export function createAirportComparison(container, initial) {
   const surface = chartSurface(container, 'Two airport late-arrival profiles by local departure hour');
 
