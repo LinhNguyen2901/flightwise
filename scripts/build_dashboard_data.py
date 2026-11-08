@@ -1,4 +1,3 @@
-"""Build API-ready July–September aggregates using the reviewed notebook rules."""
 import argparse
 import json
 from pathlib import Path

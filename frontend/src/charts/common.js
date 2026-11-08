@@ -3,7 +3,6 @@ import {lateRate, cancellationRate, sampleStatus} from './metrics.js';
 
 export const number = format(',d');
 export const percent = value => value == null ? 'Not available' : format('.1%')(value);
-// One smooth late-rate scale for map, heatmap and airline bars.
 export const rateColor = scaleSequential(interpolateViridis).domain([0, 0.5]).clamp(true);
 export const COLORS = {ink: '#142d40', muted: '#536574', selected: '#d81b60', empty: '#edf1f3'};
 let nextId = 0;
@@ -19,7 +18,6 @@ text { font-family: Segoe UI, Arial, sans-serif; fill: #142d40; font-size: 12px;
 .grid line { stroke: #e2e8ed; } .grid path { display: none; }
 `;
 
-// Shared SVG surface and mark details; chart-specific drawing stays in each module.
 export function chartSurface(container, name) {
   const root = select(container).append('div').attr('class', 'fw-chart');
   const svg = root.append('svg').attr('xmlns', 'http://www.w3.org/2000/svg')

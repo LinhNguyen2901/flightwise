@@ -1,4 +1,4 @@
-"""Acquire the two official BTS sources; keep verified existing files immutable."""
+"""Acquire the two BTS sources and keep verified existing files immutable."""
 import argparse
 import hashlib
 from datetime import datetime, timezone

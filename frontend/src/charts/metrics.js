@@ -1,4 +1,3 @@
-// Count arithmetic shared by previews and the future browser app. No I/O here.
 export const COUNT_FIELDS = [
   'scheduled_count', 'cancelled_count', 'diverted_count', 'cancellation_eligible_count',
   'arrival_eligible_count', 'late_count', 'excluded_arrival_count',

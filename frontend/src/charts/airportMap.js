@@ -4,7 +4,6 @@ import stateAtlas from 'us-atlas/states-10m.json';
 import {chartSurface, countDetails, markFill, number, rateLegend, COLORS} from './common.js';
 import {sampleStatus, sumCounts} from './metrics.js';
 
-// Fixed coordinate windows keep geography stable across selections and hourly frames.
 const PANELS = [
   {id: 'main', title: 'Contiguous U.S.', box: [28, 102, 944, 420], bounds: [[-126, 24], [-66, 50]]},
   {id: 'AK', title: 'Alaska', box: [28, 540, 600, 170], bounds: [[-180, 50], [-129, 73]]},

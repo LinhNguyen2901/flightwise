@@ -5,7 +5,6 @@ import {lateRate, sumCounts} from './metrics.js';
 const volumeColor = '#b5d8d5';
 const rateLineColor = '#007f87';
 
-// One plotting area: bars use the left axis; the line uses the right axis.
 export function createHourlyOverview(container, initial) {
   const surface = chartSurface(container, 'Scheduled flights and arrival-late rate by local hour');
 

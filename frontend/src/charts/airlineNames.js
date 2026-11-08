@@ -1,5 +1,3 @@
-// DOT's 2025 reporting-airline list (Air Travel Consumer Report, June 2025).
-// Codes remain the grouping keys; names are for readers.
 export const AIRLINE_NAMES = {
   AA: 'American Airlines', AS: 'Alaska Airlines', B6: 'JetBlue Airways',
   DL: 'Delta Air Lines', F9: 'Frontier Airlines', G4: 'Allegiant Air',
