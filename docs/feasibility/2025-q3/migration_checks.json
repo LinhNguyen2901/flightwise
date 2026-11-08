@@ -1,0 +1,15 @@
+{
+  "preserved_original_files": 34,
+  "preservation_passed": true,
+  "identical_parquet_files": [
+    "airports.parquet",
+    "cube.parquet",
+    "flights_2025_07.parquet",
+    "flights_2025_08.parquet",
+    "flights_2025_09.parquet",
+    "origin_counts.parquet"
+  ],
+  "repeatability_passed": true,
+  "first_seconds": 28.442,
+  "repeat_seconds": 44.456
+}

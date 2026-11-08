@@ -1,0 +1,22 @@
+{
+  "airport_selection": "All historical sequence records used by the processed flight scope",
+  "files": {
+    "airport_coordinates.csv": "844a126185448b28801baa29dc6dd6baf8db08fb339c07bd3e93563e721551b8",
+    "flights_2025_07.csv": "a2f7695d5a0f64cfca029605ef9e4c1cea61bb3f1fb37ffbfb2e6b762ef05819",
+    "flights_2025_08.csv": "fbc547a144d4d5d5e9432dfa47c88a3f2a1a52dbedce225471918cb34102c37c",
+    "flights_2025_09.csv": "b732c4da22ef66a266113ce8b205170c19f961e477460d89af46b77df3e08da4"
+  },
+  "input_hashes": {
+    "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_7.zip": "74309a3a734d5104b4c212390c06eb3acacff15124b9cea49ba7d69a609a0d19",
+    "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_8.zip": "405668b8a807266236a635efbc1e9364abfb756db1a5c895e45abc9c7b7684f1",
+    "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_9.zip": "adc722b1c14944451b20ddcdbeec69bbc092310ab8044f758b8f4b82fde8d017",
+    "airport_coordinates.zip": "0fe3e83d04a4a80bd5b207253095488f1046a168d6685302a223eccd55daa68a"
+  },
+  "months": [
+    7,
+    8,
+    9
+  ],
+  "selection": "First 100 original CSV records per month, selected source columns; not representative",
+  "year": 2025
+}

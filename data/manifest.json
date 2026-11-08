@@ -1,0 +1,88 @@
+{
+  "files": {
+    "data/raw/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_7.zip": {
+      "archive_members": [
+        "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2025_7.csv",
+        "readme.html"
+      ],
+      "bytes": 32208704,
+      "method": "BTS PREZIP GET",
+      "resolved_url": "https://transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_7.zip",
+      "retrieved_utc": "2026-11-05T04:31:07.351795+00:00",
+      "selected_fields": "Full monthly pre-zipped export; processing selects documented fields",
+      "sha256": "74309a3a734d5104b4c212390c06eb3acacff15124b9cea49ba7d69a609a0d19",
+      "source_url": "https://transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_7.zip"
+    },
+    "data/raw/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_8.zip": {
+      "archive_members": [
+        "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2025_8.csv",
+        "readme.html"
+      ],
+      "bytes": 30864245,
+      "method": "BTS PREZIP GET",
+      "resolved_url": "https://transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_8.zip",
+      "retrieved_utc": "2026-11-05T04:31:52.043258+00:00",
+      "selected_fields": "Full monthly pre-zipped export; processing selects documented fields",
+      "sha256": "405668b8a807266236a635efbc1e9364abfb756db1a5c895e45abc9c7b7684f1",
+      "source_url": "https://transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_8.zip"
+    },
+    "data/raw/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_9.zip": {
+      "archive_members": [
+        "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2025_9.csv",
+        "readme.html"
+      ],
+      "bytes": 28151630,
+      "method": "BTS PREZIP GET",
+      "resolved_url": "https://transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_9.zip",
+      "retrieved_utc": "2026-11-05T04:32:37.513776+00:00",
+      "selected_fields": "Full monthly pre-zipped export; processing selects documented fields",
+      "sha256": "adc722b1c14944451b20ddcdbeec69bbc092310ab8044f758b8f4b82fde8d017",
+      "source_url": "https://transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_9.zip"
+    },
+    "data/raw/airport_coordinates.zip": {
+      "archive_members": [
+        "T_MASTER_CORD.csv"
+      ],
+      "bytes": 730422,
+      "method": "BTS form POST, all fields",
+      "resolved_url": "https://transtats.bts.gov/DL_SelectFields.aspx?QO_fu146_anzr=N8vn6v10+f722146+gnoyr5&gnoyr_VQ=FLL",
+      "retrieved_utc": "2026-11-05T03:56:35.935095+00:00",
+      "selected_fields": [
+        "AIRPORT",
+        "AIRPORT_COUNTRY_CODE_ISO",
+        "AIRPORT_COUNTRY_NAME",
+        "AIRPORT_ID",
+        "AIRPORT_IS_CLOSED",
+        "AIRPORT_IS_LATEST",
+        "AIRPORT_SEQ_ID",
+        "AIRPORT_START_DATE",
+        "AIRPORT_STATE_CODE",
+        "AIRPORT_STATE_FIPS",
+        "AIRPORT_STATE_NAME",
+        "AIRPORT_THRU_DATE",
+        "AIRPORT_WAC",
+        "AIRPORT_WAC_SEQ_ID2",
+        "CITY_MARKET_ID",
+        "CITY_MARKET_SEQ_ID",
+        "CITY_MARKET_WAC",
+        "CITY_MARKET_WAC_SEQ_ID2",
+        "DISPLAY_AIRPORT_CITY_NAME_FULL",
+        "DISPLAY_AIRPORT_NAME",
+        "DISPLAY_CITY_MARKET_NAME_FULL",
+        "LATITUDE",
+        "LAT_DEGREES",
+        "LAT_HEMISPHERE",
+        "LAT_MINUTES",
+        "LAT_SECONDS",
+        "LONGITUDE",
+        "LON_DEGREES",
+        "LON_HEMISPHERE",
+        "LON_MINUTES",
+        "LON_SECONDS",
+        "UTC_LOCAL_TIME_VARIATION"
+      ],
+      "sha256": "0fe3e83d04a4a80bd5b207253095488f1046a168d6685302a223eccd55daa68a",
+      "source_url": "https://transtats.bts.gov/DL_SelectFields.aspx?QO_fu146_anzr=N8vn6v10+f722146+gnoyr5&gnoyr_VQ=FLL"
+    }
+  }
+}

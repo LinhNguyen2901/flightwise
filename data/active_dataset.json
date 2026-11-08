@@ -1,0 +1,13 @@
+{
+  "year": 2025,
+  "months": [
+    7,
+    8,
+    9
+  ],
+  "period": "2025-07-01/2025-09-30",
+  "processed_dir": "data/processed/2025-q3",
+  "sample_dir": "data/sample/2025-q3",
+  "feasibility_dir": "docs/feasibility/2025-q3",
+  "status": "verified"
+}
